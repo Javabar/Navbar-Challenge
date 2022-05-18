@@ -53,17 +53,23 @@ a:hover {
   align-content: center;
 }
 
-.flex-nav ul li {
+/* .flex-nav ul li {
   flex-grow: 1;
-}
+} */
 
-.social {
-  display: flex;
+
+/* @media all and (max-width: 1000px) {
+  .flex-nav ul li {
+    width: 50%;
+  }
+.flex-nav .social {
+  width: 25%;
 }
+} */
 
 @media all and (max-width: 1000px) {
   .flex-nav ul li {
-    width: 50%;
+    width: 100%;
   }
 .flex-nav .social {
   width: 25%;
